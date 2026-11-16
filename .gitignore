@@ -1,0 +1,40 @@
+# ---- WorkBuddy 本地专属（不要提交到 GitHub）----
+.workbuddy/
+*.genie
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 临时产物 ----
+_preview/
+_verify/
+_pagesim/
+shots/
+*.tmp
+*.log
+
+# ---- 检测脚本的中间 JSON ----
+_q.json
+_q2.json
+_q3.json
+_qa.json
+_qb.json
+_qf.json
+_qm.json
+_rewrite_coffee.json
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# ---- 依赖目录（若以后引入）----
+node_modules/
